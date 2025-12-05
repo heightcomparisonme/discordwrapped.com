@@ -59,7 +59,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel="icon" href="https://tiktokwrapped.app/favicon.ico" type="image/x-icon"></link>
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-QSY3QY2L7K"
+          src="https://www.googletagmanager.com/gtag/js?id=G-VL28XDNV54"
         />
         <Script
           id="google-analytics"
@@ -70,11 +70,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-QSY3QY2L7K');
+            gtag('config', 'G-VL28XDNV54');
           `}
         </Script>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5177457324079072"
-              crossOrigin="anonymous">
+          crossOrigin="anonymous">
         </script>
       </head>
       <body className={inter.className}>
