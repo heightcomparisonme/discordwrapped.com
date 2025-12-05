@@ -1,0 +1,44 @@
+[
+  {
+    "title": "TikTok Wrapped meaning",
+    "description": "TikTok Wrapped definition and meaning",
+    "date": "2025-08-11T13:14:40.737Z",
+    "lastModified": "2025-08-11T13:14:40Z",
+    "path": "data/md/accessing-admin-managing-resources.md"
+  },
+  {
+    "title": "Configuring Environment Variables for TikTok Wrapped",
+    "description": "How to configure TikTok Wrapped environment variables",
+    "date": "2025-08-11T13:08:05.474Z",
+    "lastModified": "2025-08-11T13:08:05Z",
+    "path": "data/md/environment-variables.md"
+  },
+  {
+    "title": "Installing and Deploying TikTok Wrapped: A Step-by-Step Guide",
+    "description": "A comprehensive guide for setting up TikTok Wrapped locally and deploying it to Vercel, suitable for beginners.",
+    "date": "2025-08-11",
+    "lastModified": "2025-08-11T11:34:30Z",
+    "path": "data/md/TikTok Wrapped-install-guide.md"
+  },
+  {
+    "title": "TikTok Wrapped: A Dynamic, Database-Free Website Solution",
+    "description": "Explore the features and implementation of TikTok Wrapped, an innovative open-source project that combines Next.js, Tailwind CSS, and GitHub API for content management.",
+    "date": "2025-08-11",
+    "lastModified": "2025-08-11T11:34:30Z",
+    "path": "data/md/TikTok Wrapped-introduction.md"
+  },
+  {
+    "title": "Contributing to TikTok Wrapped",
+    "description": "Hi, I'm abel-yelin, creator of TikTok Wrapped. I'm excited to welcome you to our project and look forward to your contributions in making TikTok Wrapped even better!",
+    "date": "2025-08-16T03:57:46.153Z",
+    "lastModified": "2025-08-16T03:57:46Z",
+    "path": "data/md/how-to-contributing-to-TikTok Wrapped.md"
+  },
+  {
+    "title": "Managing Articles in TikTok Wrapped Admin Panel",
+    "description": "This guide will walk you through the process of viewing, editing, and creating new articles using the admin panel.",
+    "date": "2025-08-11T13:16:44.231Z",
+    "lastModified": "2025-08-11T13:16:44Z",
+    "path": "data/md/managing-articles.md"
+  }
+]
