@@ -11,6 +11,7 @@ import Image from 'next/image'
 const navItems = [
   { path: '/', label: 'Home' },
   { path: '/posts', label: 'Articles' },
+  { path: '/discord-checkpoint-2025', label: 'Discord Wrapped 2025' },
 ]
 
 export function Navigation() {

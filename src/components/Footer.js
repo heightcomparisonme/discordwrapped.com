@@ -4,6 +4,7 @@ import Link from 'next/link'
 const quickLinks = [
   { href: '/', label: 'Home' },
   { href: '/posts', label: 'Articles' },
+  { href: '/discord-checkpoint-2025', label: 'Checkpoint 2025' },
 ]
 
 export function Footer() {
