@@ -1,0 +1,2 @@
+# discordwrapped.com
+discordwrapped.com
