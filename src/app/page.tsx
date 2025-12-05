@@ -175,7 +175,7 @@ export default function Home() {
               polished story your members will want to share. Inspired by the{' '}
               <a
                 className="underline decoration-indigo-400 decoration-2 underline-offset-4"
-                href="https://support.discord.com/hc/en-us/community/posts/360058199772-Discord-Wrapped-similar-to-Spotify-Wrapped"
+                href="https://tiktokwrapped.app/discord-wrapped"
                 target="_blank"
                 rel="noreferrer"
               >
