@@ -1,3 +1,9 @@
+---
+title: 'See Discord Wrapped'
+description: 'How to visualize your Discord chat history and voice stats.'
+date: '2024-12-06'
+---
+
 # See Discord Wrapped
 
 Want to see your Discord Wrapped? Here is how you can visualize your chat history, voice time, and more.

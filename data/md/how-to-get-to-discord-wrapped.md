@@ -1,3 +1,9 @@
+---
+title: 'How to Get to Discord Wrapped'
+description: 'Step-by-step navigation guide to accessing your Discord Wrapped.'
+date: '2024-12-06'
+---
+
 # How to Get to Discord Wrapped
 
 Getting to your Discord Wrapped involves a few steps since it's not a native in-app feature.

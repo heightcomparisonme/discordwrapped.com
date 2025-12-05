@@ -1,3 +1,9 @@
+---
+title: 'How to Check Discord Wrapped'
+description: 'The comprehensive guide to checking your Discord year in review.'
+date: '2024-12-06'
+---
+
 # How to Check Discord Wrapped
 
 Checking your Discord Wrapped is a great way to relive your memories from the past year.

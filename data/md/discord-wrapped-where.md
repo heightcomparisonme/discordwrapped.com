@@ -1,3 +1,9 @@
+---
+title: 'Discord Wrapped Where'
+description: 'Where to find your Discord Wrapped stats and data.'
+date: '2024-12-06'
+---
+
 # Discord Wrapped Where
 
 Where can you find your Discord Wrapped?

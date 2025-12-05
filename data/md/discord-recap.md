@@ -1,3 +1,9 @@
+---
+title: 'Discord Recap'
+description: 'What is a Discord Recap and how does it compare to Wrapped?'
+date: '2024-12-06'
+---
+
 # Discord Recap
 
 A Discord Recap is essentially the same as Discord Wrapped. It's a summary of your yearly activity.

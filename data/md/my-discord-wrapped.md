@@ -1,3 +1,9 @@
+---
+title: 'My Discord Wrapped'
+description: 'Understanding your personal Discord activity summary.'
+date: '2024-12-06'
+---
+
 # My Discord Wrapped
 
 "My Discord Wrapped" is a personal summary of your activity on the platform.

@@ -1,3 +1,9 @@
+---
+title: 'Checkpoint Discord Wrapped'
+description: 'Learn about Discord Wrapped checkpoints and how to find your stats.'
+date: '2024-12-06'
+---
+
 # Checkpoint Discord Wrapped
 
 Discord Wrapped is a fun way to look back at your year on Discord. Many users look for a "checkpoint" to see their stats.

@@ -1,3 +1,9 @@
+---
+title: 'Discord Checkpoint 2025'
+description: 'Looking ahead to the future of Discord Wrapped in 2025.'
+date: '2024-12-06'
+---
+
 # Discord Checkpoint 2025
 
 Looking ahead to 2025, what can we expect from Discord Wrapped and Checkpoints?
