@@ -11,30 +11,30 @@ interface TypeWriterProps {
   showCursor?: boolean
 }
 
-export function TypeWriter({ 
-  text, 
+export function TypeWriter({
+  text,
   delay = 100,
   deleteDelay = 50,  // 删除速度
   pauseDelay = 1000, // 暂停时间
   className = '',
-  showCursor = true 
+  showCursor = true
 }: TypeWriterProps) {
   const [currentText, setCurrentText] = useState('')
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [isPaused, setIsPaused] = useState(false)
 
-  // TikTok 颜色数组
-  const tiktokColors = [
-    'text-[#25F4EE]', // TikTok 青色
-    'text-[#FE2C55]', // TikTok 粉红
-    'text-[#000000]', // TikTok 黑色
-    'text-[#000000]'  // TikTok 黑色
+  // Discord 颜色数组
+  const DiscordColors = [
+    'text-[#25F4EE]', // Discord 青色
+    'text-[#FE2C55]', // Discord 粉红
+    'text-[#000000]', // Discord 黑色
+    'text-[#000000]'  // Discord 黑色
   ]
 
   // 获取每个字符的颜色
   const getColorClass = (index: number) => {
-    return tiktokColors[index % tiktokColors.length]
+    return DiscordColors[index % DiscordColors.length]
   }
 
   useEffect(() => {

@@ -10,19 +10,7 @@ import Image from 'next/image'
 
 const navItems = [
   { path: '/', label: 'Home' },
-  { path: '/tiktok-downloader', label: 'TikTok Downloader' },
-  { path: '/tiktok-viewer', label: 'TikTok Viewer' },
-  { path: '/TikTok-Wrapped-2025', label: 'TikTok Wrapped 2025' },
-  { path: '/download-tiktok-mp3', label: 'TikTok to MP3' },
-  { path: '/download-tiktok-stories', label: 'Download Stories' },
-  { path: '/free-tiktok-likes', label: 'Free TikTok Likes' },
-  { path: '/tiktok-username-generator', label: 'TikTok Username Generator' },
-  { path: '/tiktok-engagement-rate-calculator', label: 'TikTok Engagement Calculator' },
-  { path: '/tiktok-sounds', label: 'TikTok Sounds' },
-  { path: '/get-tiktok-coins', label: 'Free TikTok Coins' },
-  { path: '/y-n-meaning-tiktok', label: 'Y/N Meaning TikTok' },
-  // { path: '/resources', label: 'Resources' },
-  // { path: '/posts', label: 'Articles' },
+  { path: '/posts', label: 'Articles' },
 ]
 
 export function Navigation() {
@@ -71,7 +59,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/googlelogo_color_272x92dp.png"
-              alt="TikTok Wrapped"
+              alt="Discord Wrapped"
               width={92}
               height={31}
               className="hover:opacity-90 transition-opacity"
@@ -95,7 +83,7 @@ export function Navigation() {
         </div>
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/abel-yelin/TikTok Wrapped"
+            href="https://github.com/abel-yelin/Discord Wrapped"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground"

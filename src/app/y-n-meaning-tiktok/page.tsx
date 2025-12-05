@@ -1,5 +1,5 @@
-import { TikTokYNMeaningLanding } from './TikTokYNMeaningLanding'
+import { DiscordYNMeaningLanding } from './DiscordYNMeaningLanding'
 
-export default function TikTokYNMeaningPage() {
-  return <TikTokYNMeaningLanding />
+export default function DiscordYNMeaningPage() {
+  return <DiscordYNMeaningLanding />
 }

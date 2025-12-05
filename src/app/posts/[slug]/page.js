@@ -6,13 +6,13 @@ export async function generateMetadata({ params }) {
   const postData = await getPostData(params.slug);
   return {
     title: `${postData.title}`,
-    description: postData.description || `Read about ${postData.title} on TikTok Wrapped`,
+    description: postData.description || `Read about ${postData.title} on Discord Wrapped`,
   };
 }
 
 export default async function Post({ params }) {
   const postData = await getPostData(params.slug);
-  
+
   return (
     <article className="container mx-auto px-4 py-12 max-w-3xl">
       {/* Breadcrumb navigation */}
@@ -23,7 +23,7 @@ export default async function Post({ params }) {
         <ChevronRight className="mx-2" size={16} />
         <span className="text-gray-900">{postData.title}</span>
       </nav>
-      
+
       {/* Meta information card */}
       <div className="bg-gray-100 rounded-lg p-6 mb-8">
         {postData.date && (
@@ -33,13 +33,13 @@ export default async function Post({ params }) {
           <p className="text-gray-800">{postData.description}</p>
         )}
       </div>
-      
+
       {/* Article content */}
-      <div 
+      <div
         className="prose prose-lg max-w-none"
-        dangerouslySetInnerHTML={{ __html: postData.contentHtml }} 
+        dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
       />
-      
+
       {/* Back to articles link */}
       <div className="mt-12">
         <Link href="/posts" className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-2">

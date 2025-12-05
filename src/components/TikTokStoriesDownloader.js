@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Alert, AlertDescription } from '@/components/ui/alert'
 
-export function TikTokStoriesDownloader() {
+export function DiscordStoriesDownloader() {
   const [url, setUrl] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
@@ -16,7 +16,7 @@ export function TikTokStoriesDownloader() {
     {
       icon: <Download className="h-6 w-6" />,
       title: 'HD Quality Downloads',
-      description: 'Download TikTok stories in high definition quality'
+      description: 'Download Discord stories in high definition quality'
     },
     {
       icon: <Shield className="h-6 w-6" />,
@@ -37,7 +37,7 @@ export function TikTokStoriesDownloader() {
 
   const handleDownload = async () => {
     if (!url.trim()) {
-      setError('Please enter a TikTok story URL')
+      setError('Please enter a Discord story URL')
       return
     }
 
@@ -47,7 +47,7 @@ export function TikTokStoriesDownloader() {
     try {
       // Simulate API call - replace with actual implementation
       await new Promise(resolve => setTimeout(resolve, 2000))
-      
+
       // Mock response
       setDownloadedStory({
         id: 'mock-story-id',
@@ -77,18 +77,18 @@ export function TikTokStoriesDownloader() {
         <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              TikTok Stories Downloader
+              Discord Stories Downloader
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-purple-100">
-              Download TikTok stories anonymously and for free in HD quality
+              Download Discord stories anonymously and for free in HD quality
             </p>
-            
+
             {/* Download Input Section */}
             <div className="max-w-2xl mx-auto bg-white/10 backdrop-blur-md rounded-2xl p-6 mb-12">
               <div className="flex flex-col sm:flex-row gap-4">
                 <Input
                   type="text"
-                  placeholder="Paste TikTok Story URL here..."
+                  placeholder="Paste Discord Story URL here..."
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
                   className="flex-1 bg-white/90 text-gray-900 placeholder-gray-500 border-0 focus:ring-2 focus:ring-white/50"
@@ -110,7 +110,7 @@ export function TikTokStoriesDownloader() {
                   </Button>
                 </div>
               </div>
-              
+
               {error && (
                 <Alert className="mt-4 bg-red-500/20 border-red-400 text-white">
                   <AlertDescription>{error}</AlertDescription>
@@ -126,13 +126,13 @@ export function TikTokStoriesDownloader() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Our TikTok Stories Downloader?
+              Why Choose Our Discord Stories Downloader?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              The most reliable and feature-rich TikTok story downloading tool available online
+              The most reliable and feature-rich Discord story downloading tool available online
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="text-center p-6 rounded-xl hover:shadow-lg transition-shadow">
@@ -152,20 +152,20 @@ export function TikTokStoriesDownloader() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              How to Download TikTok Stories
+              How to Download Discord Stories
             </h2>
             <p className="text-lg text-gray-600">
-              Simple 3-step process to download any TikTok story
+              Simple 3-step process to download any Discord story
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">
                 1
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Copy Story URL</h3>
-              <p className="text-gray-600">Open the TikTok story and copy its URL from the share menu</p>
+              <p className="text-gray-600">Open the Discord story and copy its URL from the share menu</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-xl">

@@ -4,9 +4,9 @@ import { useState, useCallback } from 'react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { 
-  BookOpen, 
-  Users, 
+import {
+  BookOpen,
+  Users,
   Sparkles,
   RefreshCw,
   Heart,
@@ -127,7 +127,7 @@ const trendingExamples: TrendingExample[] = [
   {
     id: '4',
     title: 'Y/N in a K-Drama',
-    description: 'TikTok versions of popular K-drama scenarios with the viewer as the main character.',
+    description: 'Discord versions of popular K-drama scenarios with the viewer as the main character.',
     views: '2.7M',
     likes: '490K',
     format: 'K-Drama Style'
@@ -167,7 +167,7 @@ const features = [
   }
 ]
 
-export function TikTokYNMeaningLanding() {
+export function DiscordYNMeaningLanding() {
   const [yourName, setYourName] = useState('')
   const [selectedGenre, setSelectedGenre] = useState('all')
   const [generatedStory, setGeneratedStory] = useState<string | null>(null)
@@ -214,38 +214,38 @@ export function TikTokYNMeaningLanding() {
     }
   }
 
-  const filteredStoryIdeas = selectedGenre === 'all' 
-    ? storyIdeas 
+  const filteredStoryIdeas = selectedGenre === 'all'
+    ? storyIdeas
     : storyIdeas.filter(idea => idea.tags.some(tag => tag.includes(selectedGenre)))
 
   const faqs = [
     {
-      question: "What does Y/N mean on TikTok?",
-      answer: "Y/N stands for 'Your Name' and is used as a placeholder in storytelling content where viewers can insert their own name. It originated from fanfiction communities and has become popular on TikTok for creating immersive, personalized content."
+      question: "What does Y/N mean on Discord?",
+      answer: "Y/N stands for 'Your Name' and is used as a placeholder in storytelling content where viewers can insert their own name. It originated from fanfiction communities and has become popular on Discord for creating immersive, personalized content."
     },
     {
       question: "How do you pronounce Y/N?",
       answer: "Y/N is typically read as 'Why-en' or readers mentally substitute their actual name when they see it. The creator says 'Your Name' when speaking, and viewers imagine their own name in that context."
     },
     {
-      question: "Why is Y/N so popular on TikTok?",
+      question: "Why is Y/N so popular on Discord?",
       answer: "Y/N is popular because it creates an immediate personal connection between the content and viewer. It transforms passive viewing into an active, immersive experience where the viewer becomes the main character of the story."
     },
     {
       question: "Where did the Y/N format originate?",
-      answer: "The Y/N format originated in fanfiction communities on platforms like Wattpad and Archive of Our Own (AO3) before migrating to TikTok and other social media platforms."
+      answer: "The Y/N format originated in fanfiction communities on platforms like Wattpad and Archive of Our Own (AO3) before migrating to Discord and other social media platforms."
     },
     {
       question: "What types of content work best with Y/N?",
       answer: "Y/N works especially well for romance scenarios, dramatic situations, character interactions, fantasy adventures, and any content where emotional connection or personal experience is important."
     },
     {
-      question: "How can I create Y/N content on TikTok?",
+      question: "How can I create Y/N content on Discord?",
       answer: "To create Y/N content, write your story or script using 'Y/N' instead of a specific character name. Consider your audience's demographics and create scenarios that would appeal to them as the main character."
     },
     {
-      question: "Is Y/N only used on TikTok?",
-      answer: "No, Y/N is used across multiple platforms including Instagram Reels, YouTube Shorts, and traditional fanfiction. However, it has become particularly popular on TikTok due to the platform's storytelling format."
+      question: "Is Y/N only used on Discord?",
+      answer: "No, Y/N is used across multiple platforms including Instagram Reels, YouTube Shorts, and traditional fanfiction. However, it has become particularly popular on Discord due to the platform's storytelling format."
     },
     {
       question: "Can Y/N content be educational?",
@@ -263,12 +263,12 @@ export function TikTokYNMeaningLanding() {
               <BookOpen className="h-8 w-8 text-purple-500" />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              What Does <span className="text-purple-500">Y/N</span> Mean on TikTok?
+              What Does <span className="text-purple-500">Y/N</span> Mean on Discord?
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Discover the meaning behind TikTok's most popular storytelling format. 
-              Learn how Y/N (Your Name) creates immersive content and how to use it 
-              in your own TikTok videos for maximum engagement.
+              Discover the meaning behind Discord's most popular storytelling format.
+              Learn how Y/N (Your Name) creates immersive content and how to use it
+              in your own Discord videos for maximum engagement.
             </p>
           </div>
 
@@ -283,8 +283,8 @@ export function TikTokYNMeaningLanding() {
                   Y/N = <span className="text-pink-500">Your Name</span>
                 </div>
                 <p className="text-lg text-gray-700">
-                  When you see "Y/N" in TikTok content, it's a placeholder for <strong>your name</strong>. 
-                  Creators use this format so viewers can imagine themselves as the main character 
+                  When you see "Y/N" in Discord content, it's a placeholder for <strong>your name</strong>.
+                  Creators use this format so viewers can imagine themselves as the main character
                   in the story, creating a personalized and immersive experience.
                 </p>
               </div>
@@ -310,7 +310,7 @@ export function TikTokYNMeaningLanding() {
                   className="pl-12 pr-4 py-3"
                 />
               </div>
-              <Button 
+              <Button
                 onClick={generateStory}
                 className="w-full bg-purple-500 hover:bg-purple-600 text-white font-semibold py-3"
                 disabled={isGenerating}
@@ -327,7 +327,7 @@ export function TikTokYNMeaningLanding() {
                   </div>
                 )}
               </Button>
-              
+
               {generatedStory && (
                 <div className="p-6 bg-purple-50 rounded-lg text-center">
                   <Star className="h-8 w-8 text-purple-500 mx-auto mb-4" />
@@ -352,7 +352,7 @@ export function TikTokYNMeaningLanding() {
               Popular Y/N Story Ideas
             </h2>
             <p className="text-xl text-gray-600">
-              Get inspired with these Y/N storytelling concepts for your TikTok content
+              Get inspired with these Y/N storytelling concepts for your Discord content
             </p>
           </div>
 
@@ -485,7 +485,7 @@ export function TikTokYNMeaningLanding() {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
-              Everything you need to know about Y/N on TikTok
+              Everything you need to know about Y/N on Discord
             </p>
           </div>
           <div className="space-y-6">
@@ -513,11 +513,11 @@ export function TikTokYNMeaningLanding() {
             Ready to Create Y/N Content?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Start using the Y/N format to create engaging, personalized content 
+            Start using the Y/N format to create engaging, personalized content
             that connects with your audience on a deeper level.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
+            <Button
               size="lg"
               variant="secondary"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
@@ -525,13 +525,13 @@ export function TikTokYNMeaningLanding() {
             >
               Generate Story Ideas
             </Button>
-            <Button 
+            <Button
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-purple-500 font-semibold px-8"
-              onClick={() => window.open('https://www.tiktok.com', '_blank')}
+              onClick={() => window.open('https://www.Discord.com', '_blank')}
             >
-              Create on TikTok
+              Create on Discord
             </Button>
           </div>
         </div>

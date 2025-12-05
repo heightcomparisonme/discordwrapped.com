@@ -2,56 +2,56 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Y/N Meaning TikTok - what does y/n mean on tiktok?',
-    template: '%s | TikTok Wrapped'
+    default: 'Y/N Meaning Discord - what does y/n mean on Discord?',
+    template: '%s | Discord Wrapped'
   },
-  description: 'Discover what Y/N means on TikTok and how to use the "Your Name" storytelling format. Learn about this immersive fanfiction trend and create personalized content that engages viewers.',
+  description: 'Discover what Y/N means on Discord and how to use the "Your Name" storytelling format. Learn about this immersive fanfiction trend and create personalized content that engages viewers.',
   keywords: [
-    'Y/N meaning TikTok',
-    'Your Name TikTok',
+    'Y/N meaning Discord',
+    'Your Name Discord',
     'YN storytelling format',
-    'TikTok storytelling trends',
+    'Discord storytelling trends',
     'What does Y/N mean',
-    'TikTok fanfiction format',
-    'Your Name placeholder TikTok',
-    'TikTok content creation',
-    'Personalized storytelling TikTok',
-    'TikTok narrative trends',
+    'Discord fanfiction format',
+    'Your Name placeholder Discord',
+    'Discord content creation',
+    'Personalized storytelling Discord',
+    'Discord narrative trends',
     'Y/N format explained',
-    'TikTok writing format',
-    'Immersive storytelling TikTok',
-    'TikTok character format',
-    'Storytelling techniques TikTok'
+    'Discord writing format',
+    'Immersive storytelling Discord',
+    'Discord character format',
+    'Storytelling techniques Discord'
   ],
-  authors: [{ name: 'TikTok Wrapped Team' }],
-  creator: 'TikTok Wrapped',
-  publisher: 'TikTok Wrapped',
+  authors: [{ name: 'Discord Wrapped Team' }],
+  creator: 'Discord Wrapped',
+  publisher: 'Discord Wrapped',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://tiktokwrapped.app'),
+  metadataBase: new URL('https://Discordwrapped.app'),
   alternates: {
-    canonical: 'https://tiktokwrapped.app/y/n-meaning-tiktok',
+    canonical: 'https://Discordwrapped.app/y/n-meaning-Discord',
   },
   openGraph: {
-    title: 'Y/N Meaning TikTok - Complete Guide to Your Name Storytelling Format',
-    description: 'Discover what Y/N means on TikTok and how to use the "Your Name" storytelling format. Learn about this immersive fanfiction trend and create personalized content.',
-    url: 'https://tiktokwrapped.app/y/n-meaning-tiktok',
-    siteName: 'TikTok Wrapped',
+    title: 'Y/N Meaning Discord - Complete Guide to Your Name Storytelling Format',
+    description: 'Discover what Y/N means on Discord and how to use the "Your Name" storytelling format. Learn about this immersive fanfiction trend and create personalized content.',
+    url: 'https://Discordwrapped.app/y/n-meaning-Discord',
+    siteName: 'Discord Wrapped',
     images: [
       {
-        url: 'https://tiktokwrapped.app/og-image.jpg',
+        url: 'https://Discordwrapped.app/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Y/N Meaning TikTok Guide',
+        alt: 'Y/N Meaning Discord Guide',
       },
       {
-        url: 'https://tiktokwrapped.app/og-image-square.jpg',
+        url: 'https://Discordwrapped.app/og-image-square.jpg',
         width: 800,
         height: 800,
-        alt: 'Your Name TikTok Format',
+        alt: 'Your Name Discord Format',
       }
     ],
     locale: 'en_US',
@@ -59,14 +59,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Y/N Meaning TikTok - Complete Guide to Your Name Storytelling Format',
-    description: 'Discover what Y/N means on TikTok and how to use the "Your Name" storytelling format. Learn about this immersive fanfiction trend.',
+    title: 'Y/N Meaning Discord - Complete Guide to Your Name Storytelling Format',
+    description: 'Discover what Y/N means on Discord and how to use the "Your Name" storytelling format. Learn about this immersive fanfiction trend.',
     images: [
-      'https://tiktokwrapped.app/twitter-image.jpg',
-      'https://tiktokwrapped.app/twitter-image-square.jpg'
+      'https://Discordwrapped.app/twitter-image.jpg',
+      'https://Discordwrapped.app/twitter-image-square.jpg'
     ],
-    site: '@tiktokwrapped',
-    creator: '@tiktokwrapped',
+    site: '@Discordwrapped',
+    creator: '@Discordwrapped',
   },
   robots: {
     index: true,

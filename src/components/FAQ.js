@@ -10,16 +10,16 @@ const faqs = [
     icon: <HelpCircle className="h-5 w-5" />,
     questions: [
       {
-        question: 'What is TikTok Stories Downloader?',
-        answer: 'TikTok Stories Downloader is a free online tool that allows you to download TikTok stories in high quality without requiring login or revealing your identity. It works with all types of TikTok stories including photos and videos.'
+        question: 'What is Discord Stories Downloader?',
+        answer: 'Discord Stories Downloader is a free online tool that allows you to download Discord stories in high quality without requiring login or revealing your identity. It works with all types of Discord stories including photos and videos.'
       },
       {
-        question: 'Is this TikTok Stories Downloader really free?',
-        answer: 'Yes, absolutely! Our TikTok Stories Downloader is 100% free to use. There are no hidden charges, subscription fees, or download limits. You can download as many stories as you want without any cost.'
+        question: 'Is this Discord Stories Downloader really free?',
+        answer: 'Yes, absolutely! Our Discord Stories Downloader is 100% free to use. There are no hidden charges, subscription fees, or download limits. You can download as many stories as you want without any cost.'
       },
       {
         question: 'Do I need to create an account to use this service?',
-        answer: 'No account registration is required. You can start downloading TikTok stories immediately without any sign-up process. We respect your privacy and don\'t collect any personal information.'
+        answer: 'No account registration is required. You can start downloading Discord stories immediately without any sign-up process. We respect your privacy and don\'t collect any personal information.'
       }
     ]
   },
@@ -29,7 +29,7 @@ const faqs = [
     questions: [
       {
         question: 'What quality of stories can I download?',
-        answer: 'Our tool downloads TikTok stories in the highest available quality, typically 1080p for video stories and HD for photo stories. The downloaded files maintain the original quality as uploaded by the creator.'
+        answer: 'Our tool downloads Discord stories in the highest available quality, typically 1080p for video stories and HD for photo stories. The downloaded files maintain the original quality as uploaded by the creator.'
       },
       {
         question: 'Can I download both photo and video stories?',
@@ -37,7 +37,7 @@ const faqs = [
       },
       {
         question: 'Is there a limit on how many stories I can download?',
-        answer: 'No, there are no limits! You can download as many TikTok stories as you want. Our service doesn\'t impose any daily or monthly restrictions on the number of downloads.'
+        answer: 'No, there are no limits! You can download as many Discord stories as you want. Our service doesn\'t impose any daily or monthly restrictions on the number of downloads.'
       }
     ]
   },
@@ -46,7 +46,7 @@ const faqs = [
     icon: <Shield className="h-5 w-5" />,
     questions: [
       {
-        question: 'Is it safe to use this TikTok Stories Downloader?',
+        question: 'Is it safe to use this Discord Stories Downloader?',
         answer: 'Absolutely! Our downloader is completely safe to use. We use secure HTTPS connections, don\'t store your personal data or download history, and all downloads are processed anonymously without any tracking.'
       },
       {
@@ -55,7 +55,7 @@ const faqs = [
       },
       {
         question: 'What happens to the URLs I paste? Are they stored?',
-        answer: 'We don\'t store any TikTok story URLs or your download history. Once the download is complete, the URL is immediately discarded from our servers. We prioritize your privacy and don\'t keep any logs.'
+        answer: 'We don\'t store any Discord story URLs or your download history. Once the download is complete, the URL is immediately discarded from our servers. We prioritize your privacy and don\'t keep any logs.'
       }
     ]
   },
@@ -65,15 +65,15 @@ const faqs = [
     questions: [
       {
         question: 'What devices and browsers are supported?',
-        answer: 'Our TikTok Stories Downloader works on all devices including Windows, Mac, Android, iOS, and tablets. It\'s compatible with all modern browsers like Chrome, Firefox, Safari, Edge, and Opera.'
+        answer: 'Our Discord Stories Downloader works on all devices including Windows, Mac, Android, iOS, and tablets. It\'s compatible with all modern browsers like Chrome, Firefox, Safari, Edge, and Opera.'
       },
       {
-        question: 'Does this work with private TikTok accounts?',
-        answer: 'Our downloader works with public TikTok stories. For private accounts, you need to follow the account first and have access to their stories. The tool cannot bypass TikTok\'s privacy settings.'
+        question: 'Does this work with private Discord accounts?',
+        answer: 'Our downloader works with public Discord stories. For private accounts, you need to follow the account first and have access to their stories. The tool cannot bypass Discord\'s privacy settings.'
       },
       {
         question: 'Which countries is this service available in?',
-        answer: 'Our TikTok Stories Downloader is available worldwide and works in all countries where TikTok is accessible. There are no geographic restrictions on using our service.'
+        answer: 'Our Discord Stories Downloader is available worldwide and works in all countries where Discord is accessible. There are no geographic restrictions on using our service.'
       }
     ]
   }
@@ -103,7 +103,7 @@ export function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Everything you need to know about our TikTok Stories Downloader
+            Everything you need to know about our Discord Stories Downloader
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export function FAQ() {
         <Alert className="mb-12 bg-blue-50 border-blue-200">
           <Zap className="h-4 w-4" />
           <AlertDescription className="text-blue-800">
-            <strong>Pro Tip:</strong> You can download unlimited TikTok stories completely free. No registration, watermarks, or quality loss!
+            <strong>Pro Tip:</strong> You can download unlimited Discord stories completely free. No registration, watermarks, or quality loss!
           </AlertDescription>
         </Alert>
 
@@ -137,13 +137,13 @@ export function FAQ() {
                   <ChevronDown className="h-5 w-5 text-gray-500" />
                 )}
               </button>
-              
+
               {openCategory === categoryIndex && (
                 <div className="border-t border-gray-200">
                   {category.questions.map((faq, questionIndex) => {
                     const key = `${categoryIndex}-${questionIndex}`
                     const isOpen = openQuestion[key]
-                    
+
                     return (
                       <div key={questionIndex} className="border-b border-gray-100 last:border-b-0">
                         <button
@@ -161,7 +161,7 @@ export function FAQ() {
                             )}
                           </div>
                         </button>
-                        
+
                         {isOpen && (
                           <div className="px-6 pb-4">
                             <p className="text-gray-600 leading-relaxed">
@@ -187,14 +187,14 @@ export function FAQ() {
             Can't find the answer you're looking for? Feel free to reach out to our support team.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="/posts" 
+            <a
+              href="/posts"
               className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-purple-600 hover:bg-purple-700 transition-colors"
             >
               Browse Articles
             </a>
-            <a 
-              href="/resources" 
+            <a
+              href="/resources"
               className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition-colors"
             >
               View Resources

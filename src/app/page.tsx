@@ -160,17 +160,17 @@ export default function Home() {
   ]
 
   return (
-    <div className="bg-slate-950 text-slate-50">
+    <div className="bg-white text-slate-900">
       <div className="container mx-auto px-6 py-16 space-y-20">
         <section className="grid items-center gap-12 lg:grid-cols-2">
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 rounded-full bg-slate-800/60 px-4 py-2 text-sm font-semibold text-indigo-200 ring-1 ring-indigo-500/40">
+            <div className="inline-flex items-center gap-2 rounded-full bg-slate-100/60 px-4 py-2 text-sm font-semibold text-indigo-600 ring-1 ring-indigo-500/40">
               Discord Wrapped 2025 - Private by default
             </div>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
               <TypeWriter text="Discord Wrapped built like a premium SaaS." delay={120} className="inline-block" />
             </h1>
-            <p className="text-lg leading-relaxed text-slate-200">
+            <p className="text-lg leading-relaxed text-slate-600">
               Ship a Spotify Wrapped-style recap for Discord. Turn chats, calls, reactions, and community streaks into a
               polished story your members will want to share. Inspired by the{' '}
               <a
@@ -186,22 +186,22 @@ export default function Home() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#get-started"
-                className="rounded-xl bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-400 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-indigo-500/30 transition hover:scale-[1.02]"
+                className="rounded-xl bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-400 px-6 py-3 text-base font-semibold text-slate-900 shadow-lg shadow-indigo-500/30 transition hover:scale-[1.02]"
               >
                 Check my Discord Wrapped
               </a>
               <a
                 href="#faq"
-                className="rounded-xl border border-slate-700 px-6 py-3 text-base font-semibold text-slate-100 transition hover:border-indigo-400 hover:text-indigo-100"
+                className="rounded-xl border border-slate-700 px-6 py-3 text-base font-semibold text-slate-900 transition hover:border-indigo-400 hover:text-indigo-100"
               >
                 View FAQ checkpoints
               </a>
             </div>
-            <div className="grid grid-cols-2 gap-4 rounded-2xl border border-slate-800/60 bg-slate-900/40 p-6">
+            <div className="grid grid-cols-2 gap-4 rounded-2xl border border-slate-200/60 bg-slate-50/40 p-6">
               {stats.map((item) => (
                 <div key={item.label} className="space-y-1">
-                  <p className="text-sm text-slate-400">{item.label}</p>
-                  <p className="text-xl font-semibold text-white">{item.value}</p>
+                  <p className="text-sm text-slate-500">{item.label}</p>
+                  <p className="text-xl font-semibold text-slate-900">{item.value}</p>
                 </div>
               ))}
             </div>
@@ -209,34 +209,34 @@ export default function Home() {
           <div className="relative">
             <div className="absolute -left-10 -top-10 h-24 w-24 rounded-full bg-indigo-500/40 blur-3xl" />
             <div className="absolute -bottom-16 -right-12 h-32 w-32 rounded-full bg-cyan-400/40 blur-3xl" />
-            <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 shadow-2xl shadow-indigo-900/40">
+            <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 shadow-2xl shadow-indigo-900/40">
               <div className="mb-6 flex items-center justify-between">
-                <span className="text-sm font-semibold text-indigo-200">Live preview</span>
+                <span className="text-sm font-semibold text-indigo-600">Live preview</span>
                 <span className="rounded-full bg-indigo-500/20 px-3 py-1 text-xs font-semibold text-indigo-100">
                   Share-ready
                 </span>
               </div>
               <div className="space-y-4">
-                <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-4">
+                <div className="rounded-2xl border border-slate-200 bg-slate-50/80 p-4">
                   <p className="text-xs uppercase tracking-[0.2em] text-indigo-300">Top Servers</p>
-                  <p className="mt-2 text-2xl font-bold text-white">Community Pulse 2025</p>
-                  <p className="text-sm text-slate-300">Your busiest channels, peak hours, and longest streaks.</p>
+                  <p className="mt-2 text-2xl font-bold text-slate-900">Community Pulse 2025</p>
+                  <p className="text-sm text-slate-600">Your busiest channels, peak hours, and longest streaks.</p>
                 </div>
                 <div className="grid gap-3 sm:grid-cols-2">
-                  <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
-                    <p className="text-sm text-slate-300">Voice time</p>
-                    <p className="text-3xl font-bold text-white">142h</p>
-                    <p className="text-xs text-slate-400">Across servers you moderated</p>
+                  <div className="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
+                    <p className="text-sm text-slate-600">Voice time</p>
+                    <p className="text-3xl font-bold text-slate-900">142h</p>
+                    <p className="text-xs text-slate-500">Across servers you moderated</p>
                   </div>
-                  <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
-                    <p className="text-sm text-slate-300">DM streak</p>
-                    <p className="text-3xl font-bold text-white">38 days</p>
-                    <p className="text-xs text-slate-400">Longest uninterrupted conversation</p>
+                  <div className="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
+                    <p className="text-sm text-slate-600">DM streak</p>
+                    <p className="text-3xl font-bold text-slate-900">38 days</p>
+                    <p className="text-xs text-slate-500">Longest uninterrupted conversation</p>
                   </div>
                 </div>
-                <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4">
-                  <p className="text-sm text-slate-300">Reactions</p>
-                  <p className="text-lg font-semibold text-white">Most-used emotes packaged into a shareable heatmap.</p>
+                <div className="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
+                  <p className="text-sm text-slate-600">Reactions</p>
+                  <p className="text-lg font-semibold text-slate-900">Most-used emotes packaged into a shareable heatmap.</p>
                 </div>
               </div>
             </div>
@@ -246,8 +246,8 @@ export default function Home() {
         <section id="get-started" className="space-y-6">
           <div className="space-y-3">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-300">Get started</p>
-            <h2 className="text-3xl font-semibold tracking-tight text-white">A clear path to your Discord Wrapped</h2>
-            <p className="text-slate-300">
+            <h2 className="text-3xl font-semibold tracking-tight text-slate-900">A clear path to your Discord Wrapped</h2>
+            <p className="text-slate-600">
               Follow the checkpoint checklist to import data, style your story, and deliver it to your community with
               confidence.
             </p>
@@ -256,13 +256,13 @@ export default function Home() {
             {steps.map((step, index) => (
               <div
                 key={step.title}
-                className="rounded-2xl border border-slate-800 bg-slate-900/50 p-6 shadow-lg shadow-black/10"
+                className="rounded-2xl border border-slate-200 bg-slate-50/50 p-6 shadow-lg shadow-black/10"
               >
                 <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-full bg-indigo-500/20 text-base font-semibold text-indigo-100">
                   {index + 1}
                 </div>
-                <h3 className="text-xl font-semibold text-white">{step.title}</h3>
-                <p className="mt-2 text-slate-300">{step.copy}</p>
+                <h3 className="text-xl font-semibold text-slate-900">{step.title}</h3>
+                <p className="mt-2 text-slate-600">{step.copy}</p>
               </div>
             ))}
           </div>
@@ -271,10 +271,10 @@ export default function Home() {
         <section className="grid gap-10 lg:grid-cols-2">
           <div className="space-y-4">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-300">Premium SaaS polish</p>
-            <h2 className="text-3xl font-semibold tracking-tight text-white">
+            <h2 className="text-3xl font-semibold tracking-tight text-slate-900">
               Built for community managers, creators, and brand teams
             </h2>
-            <p className="text-slate-300">
+            <p className="text-slate-600">
               Discord Wrapped pairs privacy-first analytics with cinematic visuals so you can celebrate your community
               without compromising trust.
             </p>
@@ -287,29 +287,29 @@ export default function Home() {
               ))}
             </ul>
           </div>
-          <div className="space-y-6 rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 shadow-xl shadow-indigo-900/30">
+          <div className="space-y-6 rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 shadow-xl shadow-indigo-900/30">
             <div className="flex items-center justify-between">
-              <p className="text-sm font-semibold text-indigo-200">Governance</p>
+              <p className="text-sm font-semibold text-indigo-600">Governance</p>
               <span className="rounded-full bg-emerald-500/20 px-3 py-1 text-xs font-semibold text-emerald-100">
                 Passes audits
               </span>
             </div>
             <div className="space-y-4">
-              <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                <p className="text-sm text-slate-300">Roles & approvals</p>
-                <p className="text-lg font-semibold text-white">
+              <div className="rounded-2xl border border-slate-200 bg-white/60 p-4">
+                <p className="text-sm text-slate-600">Roles & approvals</p>
+                <p className="text-lg font-semibold text-slate-900">
                   Reviewer checkpoints and sign-off logs keep brand teams comfortable.
                 </p>
               </div>
-              <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                <p className="text-sm text-slate-300">Delivery formats</p>
-                <p className="text-lg font-semibold text-white">
+              <div className="rounded-2xl border border-slate-200 bg-white/60 p-4">
+                <p className="text-sm text-slate-600">Delivery formats</p>
+                <p className="text-lg font-semibold text-slate-900">
                   Export MP4 reels, loop-ready GIFs, and crisp PNG slides in one bundle.
                 </p>
               </div>
-              <div className="rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-                <p className="text-sm text-slate-300">Support</p>
-                <p className="text-lg font-semibold text-white">
+              <div className="rounded-2xl border border-slate-200 bg-white/60 p-4">
+                <p className="text-sm text-slate-600">Support</p>
+                <p className="text-lg font-semibold text-slate-900">
                   Guided onboarding for community leads and agencies rolling out Discord Wrapped at scale.
                 </p>
               </div>
@@ -319,41 +319,41 @@ export default function Home() {
 
         <section
           id="faq"
-          className="space-y-8 rounded-3xl border border-slate-800 bg-slate-900/40 p-8 shadow-lg shadow-black/20"
+          className="space-y-8 rounded-3xl border border-slate-200 bg-slate-50/40 p-8 shadow-lg shadow-black/20"
         >
           <div className="space-y-3">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-300">FAQ</p>
-            <h2 className="text-3xl font-semibold tracking-tight text-white">Key Discord Wrapped questions answered</h2>
-            <p className="text-slate-300">
+            <h2 className="text-3xl font-semibold tracking-tight text-slate-900">Key Discord Wrapped questions answered</h2>
+            <p className="text-slate-600">
               Save time for support and SEO by addressing the most-searched prompts for Discord Wrapped.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
             {faqItems.map((item) => (
-              <div key={item.question} className="space-y-2 rounded-2xl border border-slate-800 bg-slate-950/60 p-6">
-                <h2 className="text-xl font-semibold text-white">{item.question}</h2>
-                <p className="text-slate-300">{item.answer}</p>
+              <div key={item.question} className="space-y-2 rounded-2xl border border-slate-200 bg-white/60 p-6">
+                <h2 className="text-xl font-semibold text-slate-900">{item.question}</h2>
+                <p className="text-slate-600">{item.answer}</p>
               </div>
             ))}
           </div>
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-3xl font-semibold tracking-tight text-white">Latest product notes</h2>
+          <h2 className="text-3xl font-semibold tracking-tight text-slate-900">Latest product notes</h2>
           <ArticleList articles={allPostsData} />
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-3xl font-semibold tracking-tight text-white">Resources for Discord Wrapped</h2>
+          <h2 className="text-3xl font-semibold tracking-tight text-slate-900">Resources for Discord Wrapped</h2>
           <ResourceList resources={resources} />
         </section>
 
-        <section className="rounded-3xl border border-indigo-500/30 bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 p-10 text-white shadow-2xl shadow-indigo-900/40">
+        <section className="rounded-3xl border border-indigo-500/30 bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 p-10 text-slate-900 shadow-2xl shadow-indigo-900/40">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="space-y-2">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-white/80">Call to action</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-900/80">Call to action</p>
               <h2 className="text-3xl font-bold tracking-tight">Ready to see your Discord Wrapped?</h2>
-              <p className="text-lg text-white/90">
+              <p className="text-lg text-slate-900/90">
                 Generate a checkpointed, brand-ready story today and share it with your community in minutes.
               </p>
             </div>
@@ -366,7 +366,7 @@ export default function Home() {
               </a>
               <a
                 href="mailto:hello@discordwrapped.com"
-                className="rounded-xl border border-white/70 px-6 py-3 text-base font-semibold text-white transition hover:bg-white/10"
+                className="rounded-xl border border-white/70 px-6 py-3 text-base font-semibold text-slate-900 transition hover:bg-white/10"
               >
                 Talk to us
               </a>

@@ -8,21 +8,21 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'TikTok Wrapped',
-    template: '%s | TikTok Wrapped'
+    default: 'Discord Wrapped',
+    template: '%s | Discord Wrapped'
   },
-  description: 'Discover and Relive Your Top TikTok Moments | Wrapped for TikTok.',
+  description: 'Discover and Relive Your Top Discord Moments | Wrapped for Discord.',
   openGraph: {
-    title: 'TikTok Wrapped',
-    description: 'Discover and Relive Your Top TikTok Moments | Wrapped for TikTok',
-    url: 'https://tiktokwrapped.app',
-    siteName: 'TikTok Wrapped',
+    title: 'Discord Wrapped',
+    description: 'Discover and Relive Your Top Discord Moments | Wrapped for Discord',
+    url: 'https://discordwrapped.com',
+    siteName: 'Discord Wrapped',
     images: [
       {
-        url: 'https://tiktokwrapped.app/og-image.jpg',
+        url: 'https://discordwrapped.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'TikTok Wrapped Preview'
+        alt: 'Discord Wrapped Preview'
       }
     ],
     locale: 'en_US',
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TikTok Wrapped',
-    description: 'Discover and Relive Your Top TikTok Moments | Wrapped for TikTok',
-    images: ['https://tiktokwrapped.app/twitter-image.jpg'],
+    title: 'Discord Wrapped',
+    description: 'Discover and Relive Your Top Discord Moments | Wrapped for Discord',
+    images: ['https://discordwrapped.com/twitter-image.jpg'],
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <head>
         <meta name="sogou_site_verification" content="4frudFYmJ8" />
-        <link rel="icon" href="https://tiktokwrapped.app/favicon.ico" type="image/x-icon"></link>
+        <link rel="icon" href="https://discordwrapped.com/favicon.ico" type="image/x-icon"></link>
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-VL28XDNV54"
