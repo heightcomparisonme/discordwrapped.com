@@ -185,7 +185,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="#get-started"
+                href="https://tiktokwrapped.app/discord-wrapped"
                 className="rounded-xl bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-400 px-6 py-3 text-base font-semibold text-slate-900 shadow-lg shadow-indigo-500/30 transition hover:scale-[1.02]"
               >
                 Check my Discord Wrapped
