@@ -22,7 +22,7 @@ const faqItems = [
   {
     question: 'How to check Discord Wrapped',
     answer:
-      'Upload your Discord data export or connect your analytics key, review the highlighted servers and DMs, then click “Generate Wrapped” to get your recap.',
+      'Upload your Discord data export or connect your analytics key, review the highlighted servers and DMs, then click "Generate Wrapped" to get your recap.',
   },
   {
     question: 'Discord Wrapped where',
@@ -37,7 +37,7 @@ const faqItems = [
   {
     question: 'How to get to Discord Wrapped',
     answer:
-      'Use the primary CTA on this page to start instantly or jump to the “Get started” checklist to import your data in under two minutes.',
+      'Use the primary CTA on this page to start instantly or jump to the "Get started" checklist to import your data in under two minutes.',
   },
 ]
 
@@ -140,7 +140,7 @@ export default function Home() {
   const steps = [
     {
       title: 'Import your Discord data',
-      copy: 'Drop in your Discord data export or connect your analytics key. Nothing is stored—processing stays local.',
+      copy: 'Drop in your Discord data export or connect your analytics key. Nothing is stored; processing stays local.',
     },
     {
       title: 'Choose your visual story',
@@ -165,7 +165,7 @@ export default function Home() {
         <section className="grid items-center gap-12 lg:grid-cols-2">
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 rounded-full bg-slate-800/60 px-4 py-2 text-sm font-semibold text-indigo-200 ring-1 ring-indigo-500/40">
-              Discord Wrapped 2025 · Private by default
+              Discord Wrapped 2025 - Private by default
             </div>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
               <TypeWriter text="Discord Wrapped built like a premium SaaS." delay={120} className="inline-block" />
