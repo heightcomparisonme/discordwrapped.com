@@ -209,35 +209,18 @@ export default function Home() {
           <div className="relative">
             <div className="absolute -left-10 -top-10 h-24 w-24 rounded-full bg-indigo-500/40 blur-3xl" />
             <div className="absolute -bottom-16 -right-12 h-32 w-32 rounded-full bg-cyan-400/40 blur-3xl" />
-            <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8 shadow-2xl shadow-indigo-900/40">
-              <div className="mb-6 flex items-center justify-between">
-                <span className="text-sm font-semibold text-indigo-600">Live preview</span>
-                <span className="rounded-full bg-indigo-500/20 px-3 py-1 text-xs font-semibold text-indigo-100">
-                  Share-ready
-                </span>
-              </div>
-              <div className="space-y-4">
-                <div className="rounded-2xl border border-slate-200 bg-slate-50/80 p-4">
-                  <p className="text-xs uppercase tracking-[0.2em] text-indigo-300">Top Servers</p>
-                  <p className="mt-2 text-2xl font-bold text-slate-900">Community Pulse 2025</p>
-                  <p className="text-sm text-slate-600">Your busiest channels, peak hours, and longest streaks.</p>
-                </div>
-                <div className="grid gap-3 sm:grid-cols-2">
-                  <div className="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
-                    <p className="text-sm text-slate-600">Voice time</p>
-                    <p className="text-3xl font-bold text-slate-900">142h</p>
-                    <p className="text-xs text-slate-500">Across servers you moderated</p>
-                  </div>
-                  <div className="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
-                    <p className="text-sm text-slate-600">DM streak</p>
-                    <p className="text-3xl font-bold text-slate-900">38 days</p>
-                    <p className="text-xs text-slate-500">Longest uninterrupted conversation</p>
-                  </div>
-                </div>
-                <div className="rounded-xl border border-slate-200 bg-slate-50/60 p-4">
-                  <p className="text-sm text-slate-600">Reactions</p>
-                  <p className="text-lg font-semibold text-slate-900">Most-used emotes packaged into a shareable heatmap.</p>
-                </div>
+            <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-slate-900 shadow-2xl shadow-indigo-900/40">
+              <div className="aspect-video w-full">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/2VS6MNazuHo?start=90"
+                  title="Discord Checkpoint | Discord Wrapped Showcase"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="h-full w-full"
+                ></iframe>
               </div>
             </div>
           </div>
@@ -265,6 +248,28 @@ export default function Home() {
                 <p className="mt-2 text-slate-600">{step.copy}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section className="space-y-6">
+          <div className="space-y-3">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-300">Video Tutorial</p>
+            <h2 className="text-3xl font-semibold tracking-tight text-slate-900">How to See Your Discord Checkpoint 2025</h2>
+            <p className="text-slate-600">
+              Watch this quick tutorial to learn how to generate your Discord Wrapped and view your stats.
+            </p>
+          </div>
+          <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-lg">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/iHnKkh-DYFc"
+              title="How To See Your Discord Checkpoint 2025 | Discord Wrapped Tutorial (Discord Recap)"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="h-full w-full"
+            ></iframe>
           </div>
         </section>
 
