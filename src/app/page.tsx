@@ -168,7 +168,7 @@ export default function Home() {
               Discord Wrapped 2025 - Private by default
             </div>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              <TypeWriter text="Discord Wrapped built like a premium SaaS." delay={120} className="inline-block" />
+              <TypeWriter text="Discord Wrapped" delay={120} className="inline-block" />
             </h1>
             <p className="text-lg leading-relaxed text-slate-600">
               Ship a Spotify Wrapped-style recap for Discord. Turn chats, calls, reactions, and community streaks into a
